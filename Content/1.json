@@ -1,0 +1,16 @@
+{
+    "link": "https://github.com/dotnet/corefx/issues/19535#issuecomment-300780541",
+    "description" : "Microsoft Security Advisory 4021279: Vulnerabilities in .NET Core, ASP.NET Core Could Allow Elevation of Privilege",
+    "packages" : [
+        {
+            "id" : "System.Text.Encodings.Web",
+            "affected" : "4.0.0",
+            "fix" : "4.0.1"
+        },
+        {
+            "id" : "System.Text.Encodings.Web",
+            "affected" : "4.3.0",
+            "fix" : "4.3.1"
+        }        
+    ] 
+}
