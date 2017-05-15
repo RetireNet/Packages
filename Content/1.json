@@ -158,5 +158,383 @@
             "fix" : "1.1.3"
         }
 
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ApiExplorer",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.ApiExplorer",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.ApiExplorer",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.ApiExplorer",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ApiExplorer",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ApiExplorer",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ApiExplorer",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }
+
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.DataAnnotations",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.DataAnnotations",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.DataAnnotations",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.DataAnnotations",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.DataAnnotations",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.DataAnnotations",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.DataAnnotations",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Json",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Json",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Json",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Json",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Json",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Json",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Json",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }                                           
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Formatters.Xml",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }   
+
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Localization",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.Localization",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Localization",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Localization",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Localization",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Localization",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Localization",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }
+
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor.Host",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor.Host",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor.Host",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor.Host",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor.Host",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor.Host",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor.Host",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        } 
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Razor",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }  
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.TagHelpers",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.TagHelpers",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.TagHelpers",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.TagHelpers",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.TagHelpers",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.TagHelpers",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.TagHelpers",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }  
+
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ViewFeatures",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.ViewFeatures",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.ViewFeatures",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.ViewFeatures",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ViewFeatures",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ViewFeatures",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.ViewFeatures",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }  
+,
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.WebApiCompatShim",
+            "affected" : "1.0.0",
+            "fix" : "1.0.4"
+        },          {
+            "id" : "Microsoft.AspNetCore.Mvc.WebApiCompatShim",
+            "affected" : "1.0.1",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.WebApiCompatShim",
+            "affected" : "1.0.2",
+            "fix" : "1.0.4"
+        },               {
+            "id" : "Microsoft.AspNetCore.Mvc.WebApiCompatShim",
+            "affected" : "1.0.3",
+            "fix" : "1.0.4"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.WebApiCompatShim",
+            "affected" : "1.1.0",
+            "fix" : "1.1.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.WebApiCompatShim",
+            "affected" : "1.1.1",
+            "fix" : "1.1.3"
+        },    
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.WebApiCompatShim",
+            "affected" : "1.1.2",
+            "fix" : "1.1.3"
+        }
     ] 
 }
