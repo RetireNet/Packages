@@ -11,6 +11,16 @@
             "id" : "System.Text.Encodings.Web",
             "affected" : "4.3.0",
             "fix" : "4.3.1"
-        }        
+        },
+        {
+            "id" : "System.Net.Http",
+            "affected" : "4.1.1",
+            "fix" : "4.1.2"
+        },
+        {
+            "id" : "System.Net.Http",
+            "affected" : "4.3.1",
+            "fix" : "4.3.2"
+        }
     ] 
 }
