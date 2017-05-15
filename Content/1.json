@@ -1,5 +1,5 @@
 {
-    "link": "https://github.com/dotnet/corefx/issues/19535#issuecomment-300780541",
+    "link": "https://github.com/dotnet/corefx/issues/19535",
     "description" : "Microsoft Security Advisory 4021279: Vulnerabilities in .NET Core, ASP.NET Core Could Allow Elevation of Privilege",
     "packages" : [
         {
