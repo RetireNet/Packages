@@ -21,6 +21,16 @@
             "id" : "System.Net.Http",
             "affected" : "4.3.1",
             "fix" : "4.3.2"
-        }
+        },
+        {
+            "id" : "System.Net.Http.WinHttpHandler",
+            "affected" : "4.0.1",
+            "fix" : "4.0.2"
+        },
+        {
+            "id" : "System.Net.Http.WinHttpHandler",
+            "affected" : "4.3.0",
+            "fix" : "4.3.1"
+        }          
     ] 
 }
