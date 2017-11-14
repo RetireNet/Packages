@@ -1,0 +1,121 @@
+{
+    "link": "https://github.com/aspnet/Announcements/issues/279",
+    "description" : "Microsoft Security Advisory CVE-2017-8700: CORS bypass can enable Information Disclosure",
+    "packages" : [
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.0.0",
+            "fix" : "1.0.6"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.0.1",
+            "fix" : "1.0.6"
+        },        
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.0.2",
+            "fix" : "1.0.6"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.0.3",
+            "fix" : "1.0.6"
+        },                
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.0.4",
+            "fix" : "1.0.6"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.0.5",
+            "fix" : "1.0.6"
+        },   
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.1.0",
+            "fix" : "1.1.5"
+        }, 
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.1.1",
+            "fix" : "1.1.5"
+        },              
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.1.2",
+            "fix" : "1.1.5"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.1.3",
+            "fix" : "1.1.5"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Core",
+            "affected" : "1.1.4",
+            "fix" : "1.1.5"
+        },  
+
+
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.0",
+            "fix" : "1.0.6"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.1",
+            "fix" : "1.0.6"
+        },        
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.2",
+            "fix" : "1.0.6"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.3",
+            "fix" : "1.0.6"
+        },                
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.4",
+            "fix" : "1.0.6"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.0.5",
+            "fix" : "1.0.6"
+        },   
+
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.0",
+            "fix" : "1.1.5"
+        }, 
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.1",
+            "fix" : "1.1.5"
+        },              
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.2",
+            "fix" : "1.1.5"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.3",
+            "fix" : "1.1.5"
+        },  
+        {
+            "id" : "Microsoft.AspNetCore.Mvc.Cors",
+            "affected" : "1.1.4",
+            "fix" : "1.1.5"
+        }             
+    ]
+}
