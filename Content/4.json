@@ -1,0 +1,126 @@
+{
+    "link": "https://github.com/aspnet/Announcements/issues/300",
+    "description" : "Microsoft Security Advisory ASPNETCore-Mar18: ASP.NET Core Denial Of Service Vulnerability",
+    "packages" : [
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Core",
+            "affected" : "2.0.0",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Core",
+            "affected" : "2.0.1",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Core",
+            "affected" : "2.0.2",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Core",
+            "affected" : "2.1.0-preview1",
+            "fix" : "2.1.0-rc1-final"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Core",
+            "affected" : "2.1.0-preview2",
+            "fix" : "2.1.0-rc1-final"
+        },
+
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions",
+            "affected" : "2.0.0",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions",
+            "affected" : "2.0.1",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions",
+            "affected" : "2.0.2",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions",
+            "affected" : "2.1.0-preview1",
+            "fix" : "2.1.0-rc1-final"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions",
+            "affected" : "2.1.0-preview2",
+            "fix" : "2.1.0-rc1-final"
+        },
+
+
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+            "affected" : "2.0.0",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+            "affected" : "2.0.1",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+            "affected" : "2.0.2",
+            "fix" : "2.0.3"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+            "affected" : "2.1.0-preview1",
+            "fix" : "2.1.0-rc1-final"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+            "affected" : "2.1.0-preview2",
+            "fix" : "2.1.0-rc1-final"
+        },
+
+
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.0.0",
+            "fix" : "2.0.8"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.0.3",
+            "fix" : "2.0.8"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.0.4",
+            "fix" : "2.0.8"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.0.5",
+            "fix" : "2.0.8"
+        }, 
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.0.6",
+            "fix" : "2.0.8"
+        },   
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.0.7",
+            "fix" : "2.0.8"
+        },
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.1.0-preview1",
+            "fix" : "2.1.0-rc1-final"
+        },   
+        {
+            "id" : "Microsoft.AspNetCore.All",
+            "affected" : "2.1.0-preview2",
+            "fix" : "2.1.0-rc1-final"
+        }
+    ]
+}
