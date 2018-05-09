@@ -1,0 +1,16 @@
+{
+    "link": "https://github.com/dotnet/announcements/issues/67",
+    "description" : "Microsoft Security Advisory CVE-2018-0765: .NET Core Denial Of Service Vulnerability",
+    "packages" : [
+        {
+            "id" : "System.Security.Cryptography.Xml",
+            "affected" : "4.4.1",
+            "fix" : "4.4.2"
+        },
+        {
+            "id" : "System.Security.Cryptography.Xml",
+            "affected" : "4.4.0",
+            "fix" : "4.4.2"
+        }        
+    ]
+}
