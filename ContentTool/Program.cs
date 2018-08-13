@@ -17,14 +17,15 @@ namespace ContentTool
                 Description = "Microsoft Security Advisory CVE-2018-8356: .NET Core Security Feature Bypass Vulnerability"                
             };
             
-            var r = new Recommendation("System.Private.ServiceModel")
-                .InsteadOf("4.0.0", "4.1.0", "4.1.1").Prefer("4.1.3")
-                .InsteadOf("4.3.0", "4.3.1").Prefer("4.3.3")
-                .InsteadOf("4.4.0", "4.4.1", "4.4.2").Prefer("4.4.4");
 
-            Console.WriteLine("Count: " + r.Packages.Count());
 
-            jsonFile.Packages.AddRange(r.Packages);            
+            jsonFile.Packages.AddRange(SameVersionRecommendation("System.Private.ServiceModel"));            
+            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Duplex"));            
+            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Http"));            
+            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.NetTcp"));            
+            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Primitives"));            
+            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Security"));            
+
 
             var serialized = JsonConvert.SerializeObject(jsonFile, new JsonSerializerSettings 
             { 
@@ -34,6 +35,16 @@ namespace ContentTool
             
             File.WriteAllText("./bin/output.json", serialized);
             Console.WriteLine("Done");
+        }
+
+        private static IEnumerable<Package> SameVersionRecommendation(string packageId)
+        {
+            var r = new Recommendation(packageId)
+                .InsteadOf("4.0.0", "4.1.0", "4.1.1").Prefer("4.1.3")
+                .InsteadOf("4.3.0", "4.3.1").Prefer("4.3.3")
+                .InsteadOf("4.4.0", "4.4.1", "4.4.2").Prefer("4.4.4")
+                .InsteadOf("4.5.0", "4.5.1").Prefer("4.5.3");
+            return r.Packages;
         }
     }
     
@@ -46,7 +57,8 @@ namespace ContentTool
 
         public string Link { get; set; }
         public string Description { get; set; }
-        public List<Package> Packages {get;set; }
+        public List<Package> Packages { get; }
+        
     }
 
     public class Package 
@@ -58,7 +70,7 @@ namespace ContentTool
 
     public class Recommendation 
     {
-        public string Id { get; set; }
+        public string Id { get; }
 
         public Recommendation(string id)
         {
@@ -66,7 +78,7 @@ namespace ContentTool
             Packages = new List<Package>();
         }   
 
-        public List<Package> Packages { get;set;}
+        public List<Package> Packages { get; }
 
         public InsteadOf InsteadOf(params string[] insteadOfs)
         {            
