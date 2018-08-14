@@ -13,19 +13,25 @@ namespace ContentTool
         {
             var jsonFile = new JsonFile 
             {
-                Link = "https://github.com/dotnet/announcements/issues/73",
-                Description = "Microsoft Security Advisory CVE-2018-8356: .NET Core Security Feature Bypass Vulnerability"                
+                Link = "https://github.com/aspnet/Announcements/issues/311",
+                Description = "Microsoft Security Advisory ASPNETCore-July18: ASP.NET Core Denial Of Service Vulnerability"                
             };
             
 
+            var r1 = new Recommendation("Microsoft.AspNetCore.Server.Kestrel.Core")
+                .InsteadOf("2.0.0", "2.0.1", "2.0.2", "2.0.3").Prefer("2.0.4")
+                .InsteadOf("2.1.0", "2.1.1").Prefer("2.1.2");
 
-            jsonFile.Packages.AddRange(SameVersionRecommendation("System.Private.ServiceModel"));            
-            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Duplex"));            
-            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Http"));            
-            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.NetTcp"));            
-            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Primitives"));            
-            jsonFile.Packages.AddRange(SameVersionRecommendation("System.ServiceModel.Security"));            
+            var r2 = new Recommendation("Microsoft.AspNetCore.All")
+                .InsteadOf("2.0.0", "2.0.1", "2.0.2", "2.0.3", "2.0.4", "2.0.5", "2.0.6", "2.0.7", "2.0.8").Prefer("2.0.9")
+                .InsteadOf("2.1.0", "2.1.1").Prefer("2.1.2");
 
+            var r3 = new Recommendation("Microsoft.AspNetCore.App")
+                .InsteadOf("2.1.0", "2.1.1").Prefer("2.1.2");
+
+            jsonFile.Packages.AddRange(r1.Packages);
+            jsonFile.Packages.AddRange(r2.Packages);
+            jsonFile.Packages.AddRange(r3.Packages);
 
             var serialized = JsonConvert.SerializeObject(jsonFile, new JsonSerializerSettings 
             { 
