@@ -1,0 +1,101 @@
+{
+  "link": "https://github.com/aspnet/Announcements/issues/311",
+  "description": "Microsoft Security Advisory ASPNETCore-July18: ASP.NET Core Denial Of Service Vulnerability",
+  "packages": [
+    {
+      "id": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "affected": "2.0.0",
+      "fix": "2.0.4"
+    },
+    {
+      "id": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "affected": "2.0.1",
+      "fix": "2.0.4"
+    },
+    {
+      "id": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "affected": "2.0.2",
+      "fix": "2.0.4"
+    },
+    {
+      "id": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "affected": "2.0.3",
+      "fix": "2.0.4"
+    },
+    {
+      "id": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "affected": "2.1.0",
+      "fix": "2.1.2"
+    },
+    {
+      "id": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "affected": "2.1.1",
+      "fix": "2.1.2"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.0",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.1",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.2",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.3",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.4",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.5",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.6",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.7",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.0.8",
+      "fix": "2.0.9"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.1.0",
+      "fix": "2.1.2"
+    },
+    {
+      "id": "Microsoft.AspNetCore.All",
+      "affected": "2.1.1",
+      "fix": "2.1.2"
+    },
+    {
+      "id": "Microsoft.AspNetCore.App",
+      "affected": "2.1.0",
+      "fix": "2.1.2"
+    },
+    {
+      "id": "Microsoft.AspNetCore.App",
+      "affected": "2.1.1",
+      "fix": "2.1.2"
+    }
+  ]
+}
