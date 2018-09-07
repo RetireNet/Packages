@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ContentTool
 {
-    class HardCodedRecommendations
+    class HardCodedFiles
     {
         public static JsonFile GetJuly18JsonFile()
         {

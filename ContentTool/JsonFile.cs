@@ -11,7 +11,7 @@ namespace ContentTool
 
         public string Link { get; set; }
         public string Description { get; set; }
-        public List<Package> Packages { get; }
-        
+        public List<Package> Packages { get; set; }
+        public string OutputFile { get; set; }
     }
 }

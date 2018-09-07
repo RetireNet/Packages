@@ -11,7 +11,9 @@ namespace ContentTool
     {
         static void Main(string[] args)
         {
-            var jsonFile = HardCodedFiles.GetJuly18JsonFile();
+            var jsonFile = args.Length != 0 
+                ? HardCodedFiles.GetJuly18JsonFile()
+                : InputParser.Read();
 
             var serialized = JsonConvert.SerializeObject(jsonFile, new JsonSerializerSettings 
             { 
@@ -19,12 +21,10 @@ namespace ContentTool
                 ContractResolver = new CamelCasePropertyNamesContractResolver() 
             });
             
-            File.WriteAllText("./bin/output.json", serialized);
+            File.WriteAllText(jsonFile.OutputFile ?? "./bin/output.json", serialized);
             Console.WriteLine("Done");
         }
 
 
     }
-
-
 }
