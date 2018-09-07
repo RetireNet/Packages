@@ -15,20 +15,38 @@ namespace ContentTool
             var link = Console.ReadLine();
             Console.WriteLine("Enter description of announcement:");
             var description = Console.ReadLine();
-            Console.WriteLine("File containging paste of table of vulnerabilities and fixes (excluding headers):");
-            var filepath = Console.ReadLine();
-            var content = File.ReadAllTextAsync(filepath).GetAwaiter().GetResult();
+            var fileContent = GetFileContent();
             Console.WriteLine("Output file:");
             var outputFile = Console.ReadLine();
-      
+
 
             return new JsonFile
             {
                 Link = link,
                 Description = description,
-                Packages = ParseTable(content).ToList(),
+                Packages = ParseTable(fileContent).ToList(),
                 OutputFile = outputFile
             };
+        }
+
+        private static string GetFileContent()
+        {
+            Console.WriteLine("File containging paste of table of vulnerabilities and fixes (excluding headers):");
+            string content = null;
+            while (content == null)
+            {
+                try
+                {
+                    var filepath = Console.ReadLine();
+                    content = File.ReadAllTextAsync(filepath).GetAwaiter().GetResult();
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine($"Error: {e.Message}. Try again");
+                }
+            }
+
+            return content;
         }
 
         private static IEnumerable<Package> ParseTable(string content)
@@ -50,7 +68,7 @@ namespace ContentTool
                 {
                     foreach (var vulnerable in vulnerablePerSecure[i].Split(',', StringSplitOptions.RemoveEmptyEntries).Select(s => s.Trim()))
                     {
-                        yield return new Package {Id = id, Affected = vulnerable, Fix = secureVersions[i].Trim()};
+                        yield return new Package { Id = id, Affected = vulnerable, Fix = secureVersions[i].Trim() };
                     }
                 }
                 stuff = stuff.Substring(0, match.Index);
