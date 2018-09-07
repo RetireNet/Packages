@@ -31,31 +31,6 @@ namespace ContentTool
             };
         }
 
-        private static string ReadSomeLines()
-        {
-            var stringBuilder = new StringBuilder();
-
-            //var stuff = Console.In.ReadToEnd();
-
-            //return stuff;
-            ConsoleKeyInfo u;
-            do
-            {
-                u = Console.ReadKey();
-                stringBuilder.Append(u.KeyChar);
-            } while (u.KeyChar != '!');
-
-            return stringBuilder.ToString();
-
-            //var lines = new List<string>();
-            //string line;
-            //while (!string.IsNullOrEmpty(line = Console.ReadLine()))
-            //{
-            //    lines.Add(line);
-            //}
-            //return string.Join("\n", lines);
-        }
-
         private static IEnumerable<Package> ParseTable(string content)
         {
             var regex = new Regex("[A-Za-z]+(?:\\.[A-Za-z]+)+");
