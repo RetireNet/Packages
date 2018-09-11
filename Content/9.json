@@ -1,0 +1,46 @@
+{
+    "link": "https://github.com/aspnet/Announcements/issues/316",
+    "description": "Microsoft Security Advisory CVE-2018-8409: ASP.NET Core Denial Of Service Vulnerability",
+    "packages": [
+      {
+        "id": "Microsoft.AspNetCore.All",
+        "affected": "2.1.0",
+        "fix": "2.1.4"
+      },
+      {
+        "id": "Microsoft.AspNetCore.All",
+        "affected": "2.1.1",
+        "fix": "2.1.4"
+      },
+      {
+        "id": "Microsoft.AspNetCore.All",
+        "affected": "2.1.2",
+        "fix": "2.1.4"
+      },
+      {
+        "id": "Microsoft.AspNetCore.All",
+        "affected": "2.1.3",
+        "fix": "2.1.4"
+      },
+      {
+        "id": "Microsoft.AspNetCore.App",
+        "affected": "2.1.0",
+        "fix": "2.1.4"
+      },
+      {
+        "id": "Microsoft.AspNetCore.App",
+        "affected": "2.1.1",
+        "fix": "2.1.4"
+      },
+      {
+        "id": "Microsoft.AspNetCore.App",
+        "affected": "2.1.2",
+        "fix": "2.1.4"
+      },
+      {
+        "id": "Microsoft.AspNetCore.App",
+        "affected": "2.1.3",
+        "fix": "2.1.4"
+      }
+    ]
+}
