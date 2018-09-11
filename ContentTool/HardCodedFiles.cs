@@ -32,6 +32,27 @@ namespace ContentTool
             return jsonFile;
         }
 
+            public static JsonFile GetSept11JsonFile()
+        {
+            var jsonFile = new JsonFile
+            {
+                Link = "https://github.com/aspnet/Announcements/issues/3161",
+                Description = "Microsoft Security Advisory CVE-2018-8409: ASP.NET Core Denial Of Service Vulnerability"
+            };
+
+
+          
+            var r2 = new Recommendation("Microsoft.AspNetCore.All")
+                .InsteadOf("2.1.0", "2.1.1", "2.1.2", "2.1.3").Prefer("2.1.4");
+
+            var r3 = new Recommendation("Microsoft.AspNetCore.App")
+                .InsteadOf("2.1.0", "2.1.1", "2.1.2", "2.1.3").Prefer("2.1.4");
+
+            jsonFile.Packages.AddRange(r2.Packages);
+            jsonFile.Packages.AddRange(r3.Packages);
+            return jsonFile;
+        }
+
         private static IEnumerable<Package> SameVersionRecommendation(string packageId)
         {
             var r = new Recommendation(packageId)
