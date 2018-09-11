@@ -1,0 +1,11 @@
+{
+  "link": "https://github.com/dotnet/announcements/issues/83",
+  "description": "Microsoft Security Advisory CVE-2018-8409: .NET Core Denial Of Service Vulnerability",
+  "packages": [
+    {
+      "id": "System.IO.Pipelines",
+      "affected": "4.5.0",
+      "fix": "4.5.1"
+    }
+  ]
+}
