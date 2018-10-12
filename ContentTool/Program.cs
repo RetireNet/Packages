@@ -21,7 +21,7 @@ namespace ContentTool
                 ContractResolver = new CamelCasePropertyNamesContractResolver() 
             });
             
-            File.WriteAllText(jsonFile.OutputFile ?? "./bin/output.json", serialized);
+            File.WriteAllText(jsonFile.OutputFile ?? "./output.json", serialized);
             Console.WriteLine("Done");
         }
 

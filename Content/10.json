@@ -1,0 +1,61 @@
+{
+  "link": "https://github.com/dotnet/announcements/issues/88",
+  "description": "Microsoft Security Advisory CVE-2018-8292: .NET Core Information Disclosure Vulnerability",
+  "packages": [
+    {
+      "id": "System.Net.Http",
+      "affected": "2.0.20126.16343",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "2.0.20505",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "2.0.20710",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.0.0",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.1.0",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.1.1",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.1.2",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.3.0",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.3.1",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.3.2",
+      "fix": "4.3.4"
+    },
+    {
+      "id": "System.Net.Http",
+      "affected": "4.3.3",
+      "fix": "4.3.4"
+    }
+  ]
+}
