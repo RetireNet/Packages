@@ -11,16 +11,16 @@ namespace ContentTool
     {
         static void Main(string[] args)
         {
-            var jsonFile = args.Length != 0 
-                ? HardCodedFiles.GetSept11JsonFile()
+            var jsonFile = args.Length != 0
+                ? HardCodedFiles.GetJuly18JsonFile()
                 : InputParser.Read();
 
-            var serialized = JsonConvert.SerializeObject(jsonFile, new JsonSerializerSettings 
-            { 
-                Formatting = Formatting.Indented, 
-                ContractResolver = new CamelCasePropertyNamesContractResolver() 
+            var serialized = JsonConvert.SerializeObject(jsonFile, new JsonSerializerSettings
+            {
+                Formatting = Formatting.Indented,
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
             });
-            
+
             File.WriteAllText(jsonFile.OutputFile ?? "./output.json", serialized);
             Console.WriteLine("Done");
         }
