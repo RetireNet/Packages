@@ -43,6 +43,28 @@ namespace ContentTool
             return jsonFile;
         }
 
+        public static JsonFile GetFebruary2019()
+        {
+            var jsonFile = new JsonFile
+            {
+                Link = "https://github.com/dotnet/announcements/issues/97",
+                Description = "Microsoft Security Advisory CVE-2019-0657: .NET Core Domain Spoofing Vulnerability"
+            };
+
+
+
+            var r1 = new Recommendation("System.Private.Uri")
+                .InsteadOf("4.3.0").Prefer("4.3.1");
+
+            var r2 = new Recommendation("Microsoft.NETCore.App")
+                .InsteadOf("2.1.0", "2.1.1", "2.1.2", "2.1.3", "2.1.4", "2.1.5", "2.1.6", "2.1.7").Prefer("2.1.8")
+                .InsteadOf("2.2.0", "2.2.1").Prefer("2.2.2");
+            
+            jsonFile.Packages.AddRange(r1.Packages);
+            jsonFile.Packages.AddRange(r2.Packages);
+            return jsonFile;
+        }
+
         public static JsonFile GetJanuar2019()
         {
             var jsonFile = new JsonFile
