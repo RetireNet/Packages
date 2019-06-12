@@ -1,0 +1,16 @@
+{
+  "link": "https://github.com/dotnet/announcements/issues/112",
+  "description": "Microsoft Security Advisory CVE-2019-0980: .NET Core Denial of Service Vulnerability",
+  "packages": [
+    {
+      "id": "System.Private.Uri",
+      "affected": "4.3.0",
+      "fix": "4.3.2"
+    },
+    {
+      "id": "System.Private.Uri",
+      "affected": "4.3.1",
+      "fix": "4.3.2"
+    }
+  ]
+}
