@@ -1,0 +1,21 @@
+{
+  "link": "https://github.com/aspnet/Announcements/issues/384",
+  "description": "Microsoft Security Advisory CVE-2019-1302: ASP.NET Core Elevation Of Privilege Vulnerability",
+  "packages": [
+    {
+      "id": "Microsoft.AspNetCore.SpaServices",
+      "affected": "2.1.0",
+      "fix": "2.1.2"
+    },
+    {
+      "id": "Microsoft.AspNetCore.SpaServices",
+      "affected": "2.1.1",
+      "fix": "2.1.2"
+    },
+    {
+      "id": "Microsoft.AspNetCore.SpaServices",
+      "affected": "2.2.0",
+      "fix": "2.2.1"
+    }
+  ]
+}
