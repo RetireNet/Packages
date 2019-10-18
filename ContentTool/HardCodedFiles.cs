@@ -25,7 +25,7 @@ namespace ContentTool
                 .InsteadOf("2.2.0").Prefer("2.2.1");
 
             var r3 = new Recommendation("Microsoft.Data.OData")
-                .InsteadOf("5.0.1", "5.0.2", "5.1.0", "5.2.0", "5.3.0", "5.4.0", "5.5.0", "5.6.0", "5.6.1", "5.6.2", "5.6.3", "5.6.4", "5.7.0").Prefer("5.7.8");
+                .InsteadOf("5.0.1", "5.0.2", "5.1.0", "5.2.0", "5.3.0", "5.4.0", "5.5.0", "5.6.0", "5.6.1", "5.6.2", "5.6.3", "5.6.4", "5.7.0").Prefer("5.8.4");
             
             jsonFile.Packages.AddRange(r2.Packages);
             jsonFile.Packages.AddRange(r3.Packages);
