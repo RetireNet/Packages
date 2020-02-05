@@ -7,6 +7,26 @@ namespace ContentTool
     class HardCodedFiles
     {
 
+        public static JsonFile GetAutomation()
+        {
+            var jsonFile = new JsonFile
+            {
+                Link = "https://github.com/advisories/GHSA-62gw-3rmj-wmp2",
+                Description = "System.Management.Automation vulnerability"
+            };
+
+
+            var r1 = new Recommendation("System.Management.Automation")
+                .InsteadOf("6.2.0", "6.2.1", "6.2.2")
+                .Prefer("6.2.3");
+            var r2 = new Recommendation("System.Management.Automation")
+                .InsteadOf("6.0.4", "6.0.5", "6.1.0", "6.1.1", "6.1.2", "6.1.3", "6.1.4", "6.1.5")
+                .Prefer("6.1.6");
+            jsonFile.Packages.AddRange(r1.Packages);
+            jsonFile.Packages.AddRange(r2.Packages);
+            return jsonFile;
+        }
+
         public static JsonFile GetMessagePack()
         {
             var jsonFile = new JsonFile
