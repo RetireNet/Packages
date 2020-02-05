@@ -12,7 +12,7 @@ namespace ContentTool
         static void Main(string[] args)
         {
             var jsonFile = args.Length == 0
-                ? HardCodedFiles.GetMessagePack()
+                ? HardCodedFiles.GetAutomation()
                 : InputParser.Read();
 
             var serialized = JsonConvert.SerializeObject(jsonFile, new JsonSerializerSettings
